@@ -1,0 +1,119 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: 'Mulish', sans-serif ;
+    
+    background-size: cover;
+    background-color: #19233f;
+}
+#img-head {
+    width:180px;
+    height:65px;
+    left:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding-bottom: 5px; 
+}
+
+#img-head:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.login-box{
+    position: absolute;
+    width:300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    box-sizing: border-box;
+    box-shadow: 8px 8px 50px #000;
+    border-color: darkblue;
+    border: darkblue;
+    border-radius: 3mm; 
+    border-collapse: separate;
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+}
+
+.login-box:hover {
+    
+    box-shadow: 8px 8px 50px rgb(14, 66, 161);
+}
+
+.textbox{
+    width: 100%;
+    font-size: 2px;
+    padding: 4px 0;
+    margin: 8px;  
+    border-bottom: 1px solid; 
+}
+
+.textbox input{
+    border:none;
+    outline:none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 140px;
+    margin: 10px;
+}
+
+.btn {
+    width:60%;
+    background: none;
+    padding:7px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    color: rgb(53, 53, 100);
+    border-spacing: 5px;
+    float: center;
+    padding-left:10px;
+    border-radius:20px;
+    position:relative;
+    left:20%;   
+    background-color:white;
+    margin-top:10px;
+}
+.btn:hover {
+    background-color: rgb(53, 53, 100);
+    font-size: 17px; 
+    color:white; 
+}
+#reg {
+    font-size:14px;
+    cursor: pointer;
+    font-weight: normal;
+    text-decoration:none;
+    position:relative;
+    left:10%;
+    top:15px;
+}
+#reg:hover {
+    text-decoration: none;
+    font-size: 16px;
+}
+#fp{
+    font-size:12px;
+    color: blue;
+    cursor: pointer;
+    font-weight: normal;
+    position:relative;
+    left:10%;
+    top:16px;
+}
+.textbox{
+      width:80%;
+      position:relative;
+      left:20px;
+}
+#fp:hover {
+    text-decoration:none;
+    font-size: 14px;
+}
