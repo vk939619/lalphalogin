@@ -117,3 +117,52 @@ body{
     text-decoration:none;
     font-size: 14px;
 }
+
+@media (max-width:350px)
+{
+   .login-box{
+       width:250px;
+   }  
+}
+@media (max-width:280px)
+{
+   .login-box{
+       width:200px;
+       height:360px;
+   } 
+   #img-head{
+       width:120px;
+       height:50px;
+   } 
+   .textbox{
+       height:60px;
+   }
+   .login-box input[type="text"], input[type="password"]{
+       height:14px;
+   }
+}
+@media (max-width:220px)
+ {
+     
+   .login-box{
+       width:170px;
+       height:360px;
+       position:absolute;
+       left:100px;
+   } 
+   #img-head{
+       width:100px;
+       height:45px;
+   } 
+   .textbox {
+       height:58px;
+   }
+   .login-box input[type="text"], input[type="password"]{
+       height:14px;
+   }
+   .btn{
+    position:relative;
+    left:25%; 
+    height:33px;
+   }
+ }
