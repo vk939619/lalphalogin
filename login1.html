@@ -4,18 +4,20 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	
-	     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <title>AlphaDevs Login</title>
-		<link rel="shortcut icon" href="favicon.ico">
+	<!-- favicon -->
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- js file -->
         <script src='https://kit.fontawesome.com/a076d05399.js'>
-		</script>
+	</script>
        <script src="regex.js"></script>
-       
+       <!-- css -->
         <link rel="stylesheet" href="style.css">
         </head>
+	
     <body>
-        
+        <!-- login box -->
         <div class="login-box">
             <img src="alpimage.png" id="img-head" onclick="homepage()"> 
             
@@ -23,13 +25,14 @@
                 <i style='font-size:18px' class='fas'>&#xf2bd;</i>
 				
                 <input type="text" id="user" placeholder="Username" name="" value="" required>
-            <label id="lb" style="color: red; display: none ; font-size: 10px;">Invalid username</label>
-			</div>
+           	 <label id="lb" style="color: red; display: none ; font-size: 10px;">Invalid username</label>
+	    </div>
             <div class="textbox">
                 <i style='font-size:18px' class='fas'>&#xf023;</i>
                 <input  id="pass" type="password" placeholder="Password" name="" value="" onfocus="must()">
-            <label id="lb1" style="color: red; display: none ; font-size: 10px;"> oops! incorrect password</label>
-			</div>
+            	<label id="lb1" style="color: red; display: none ; font-size: 10px;"> oops! incorrect password</label>
+	    </div>
+		
             <input  class="btn" type="button" onclick="  validate1(); upper_case()"  value="login">
 
             <h3 id="reg" style="color:white">click here to register</h3>
